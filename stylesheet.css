@@ -1,19 +1,24 @@
 * {
-  background-image: url(https://picsum.photos/1920);
-  background-size: cover;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
+  font-family: sans-serif;
   background-size: cover;
   background-color: #222;
   color: white;
+  background-image: url(https://picsum.photos/1019?grayscale);
 }
 
 .landing {
+  background: rgba(0, 0, 16, 0.85);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   height: 100vh;
-  background-color: #555;
   display: grid;
   place-items: center;
 }
@@ -35,14 +40,16 @@ body {
 }
 
 .timeline-item {
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(12, 186, 192, 0.8);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(1.5px);
-  -webkit-backdrop-filter: blur(1.5px);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 10px;
   justify-self: center;
   align-self: center;
-  background-color: #555;
+
   padding: 10%;
   margin: 10px;
 }
@@ -65,4 +72,9 @@ body {
 .item-4 {
   grid-column: 1;
   grid-row: 4;
+}
+
+.heading {
+  text-transform: capitalize;
+  font-weight: bolder;
 }

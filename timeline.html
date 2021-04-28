@@ -4,36 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nathan's Timeline</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <link rel="stylesheet" href="/stylesheet.css" />
   </head>
 
   <body>
-    <section class="landing">
-      <h1>My Timeline</h1>
+    <section
+      class="landing"
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+    >
+      <h1
+        class="heading"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
+        My Timeline
+      </h1>
     </section>
     <!-- Timeline container for grid -->
     <div class="timeline-container">
       <!-- Timeline line -->
       <div class="timeline-line"></div>
+
       <!-- Timeline items -->
-      <div class="timeline-item item-1" data-aos="flip-left">Timeline-item</div>
-      <div class="timeline-item item-2" data-aos="flip-left">Timeline-item</div>
-      <div class="timeline-item item-3" data-aos="flip-left">Timeline-item</div>
+      <div class="timeline-item item-1" data-aos="flip-left">
+        <h2>Job 4 - <span>Job-title</span></h2>
+        <h3>2019-2021</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est aut
+          magnam officiis iste facilis dolores pariatur ea dolorem voluptatibus
+          sapiente distinctio voluptatem qui excepturi, placeat voluptas a et
+          voluptate reprehenderit tenetur. Ipsa placeat illum ab repellat facere
+          consequatur provident quisquam?
+        </p>
+      </div>
+
+      <div class="timeline-item item-2" data-aos="flip-left">
+        <h2>Job 4 - <span>Job-title</span></h2>
+        <h3>2019-2021</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est aut
+          magnam officiis iste facilis dolores pariatur ea dolorem voluptatibus
+          sapiente distinctio voluptatem qui excepturi, placeat voluptas a et
+          voluptate reprehenderit tenetur. Ipsa placeat illum ab repellat facere
+          consequatur provident quisquam?
+        </p>
+      </div>
+
+      <div class="timeline-item item-3" data-aos="flip-left">
+        <h2>Job 4 - <span>Job-title</span></h2>
+        <h3>2019-2021</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est aut
+          magnam officiis iste facilis dolores pariatur ea dolorem voluptatibus
+          sapiente distinctio voluptatem qui excepturi, placeat voluptas a et
+          voluptate reprehenderit tenetur. Ipsa placeat illum ab repellat facere
+          consequatur provident quisquam?
+        </p>
+      </div>
+
       <div class="timeline-item item-4" data-aos="flip-left">
         <h2>Job 4 - <span>Job-title</span></h2>
         <h3>2019-2021</h3>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-          Est aut magnam officiis iste facilis dolores pariatur ea dolorem voluptatibus
-          sapiente distinctio voluptatem qui excepturi, placeat voluptas a et voluptate
-          reprehenderit tenetur. Ipsa placeat illum ab repellat facere consequatur provident quisquam?
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est aut
+          magnam officiis iste facilis dolores pariatur ea dolorem voluptatibus
+          sapiente distinctio voluptatem qui excepturi, placeat voluptas a et
+          voluptate reprehenderit tenetur. Ipsa placeat illum ab repellat facere
+          consequatur provident quisquam?
         </p>
       </div>
     </div>
-   
-<script src="<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></script>"></script>  
-<script>
-    AOS.init();
-  </script>
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
